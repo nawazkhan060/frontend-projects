@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+.profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+    background-color: white;
+    z-index: 1;
+}
+.profile{
+    height: 560px;
+    width: 400px;
+    margin-top: 10%;
+    background-color: white;
+    border: 2px solid bisque;
+    border-radius: 20px;
+}
+.profile-card .image{
+  background-image: url("IMG_20240219_145131.jpg");
+  background-size: cover;
+  height: 200px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid beige;
+  z-index: 2;
+}
+.names , .occupation{
+   font-size: x-large;
+   text-transform: capitalize;
+   padding: 3px;
+}
+i{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color:whitesmoke;
+}
+button{
+    margin: 20px;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+p{
+    padding: 20px;
+    height: 10px;
+    margin: 20px;
+    border-right: 2px solid black;
+    font-size: small;
+}
